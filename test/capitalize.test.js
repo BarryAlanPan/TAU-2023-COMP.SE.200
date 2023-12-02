@@ -5,6 +5,4 @@ describe('capitalize', () => {
   it('should capitalize the first letter of a string', () => {
     expect(capitalize('fred')).to.equal('Fred');
   });
-
-  // Add more test cases as needed
 });

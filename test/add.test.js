@@ -9,6 +9,4 @@ describe('add', function() {
   it('returns a single number if only one number is provided', function() {
     expect(add(5)).to.equal(5);
   });
-
-  // Add more edge cases if needed
 });

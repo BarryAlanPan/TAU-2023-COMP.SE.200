@@ -11,6 +11,4 @@ describe('get', () => {
   it('should return undefined for non-existent property', () => {
     expect(get(object, 'a.b.c')).to.be.undefined;
   });
-
-  // Add more test cases as needed
 });

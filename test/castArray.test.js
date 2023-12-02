@@ -10,6 +10,4 @@ describe('castArray', () => {
     const array = [1, 2, 3];
     expect(castArray(array)).to.equal(array);
   });
-
-  // Add more test cases as needed
 });
